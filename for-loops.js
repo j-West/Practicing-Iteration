@@ -5,13 +5,27 @@ for (var i = 5; i < 120; i += 10) {
 	console.log("The current value is " + i);
 }
 
+// Add newline to console to seperate output
+
+console.log("\n\n");
+
+
+
+
 // Decrement the counter variable by 2 each time through the loop
 
 for (var i = 4096; i >= 1; i /= 2) {
 	console.log("The current value is " + i);
 }
 
-// Object iteration
+// Add newline to console to seperate output
+
+console.log("\n\n");
+
+
+
+
+// Array iteration
 
 // Create an array of presidents
 
@@ -41,4 +55,46 @@ var presidents = [
 
 for(var i = 0; i < presidents.length; i++) {
 	console.log("President #" + (i + 1) + " was " + presidents[i]);
+}
+
+// Add newline to console to seperate output
+
+console.log("\n\n");
+
+
+
+
+// Object Iteration
+
+// Create Onject
+
+var antSpecies = {
+  
+  argentine: {},
+  
+  army: {},
+  
+  bigHeaded: {},
+  
+  black: {},
+  
+  bull: {},
+  
+  carpenter: {},
+  
+  crazy: {},
+  
+  fire: {},
+  
+  glider: {},
+  
+  honeyPot: {},
+  
+  jackJumper: {}
+};
+
+// For in loop to iterate over the antSpecies object
+
+for (var property in antSpecies) {
+	console.log(property);
 }
