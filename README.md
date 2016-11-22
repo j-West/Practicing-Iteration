@@ -1,6 +1,6 @@
 # Practicing Iteration
 
-## Eleventh exercise in front-end-milestones/2-the-static-web
+## 11th exercise in front-end-milestones/2-the-static-web
 
 
 ### Instructions for exercise:
